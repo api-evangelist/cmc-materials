@@ -7,11 +7,116 @@ tags:
   - Semiconductors
   - Materials
   - Manufacturing
-description: 'A global supplier of consumable materials primarily to the semiconductor industry, including chemical mechanical planarization slurries and polishing pads. Supports semiconductor manufacturers through advanced materials and process technologies.'
+  - CMP
+  - Specialty Chemicals
+description: >-
+  CMC Materials is a global supplier of consumable materials primarily to the
+  semiconductor industry, including chemical mechanical planarization (CMP)
+  slurries and polishing pads. Acquired by Entegris in 2022, CMC's materials
+  portfolio is now part of the Entegris specialty chemicals and CMP solutions
+  business, serving semiconductor manufacturers through advanced materials
+  and process technologies.
 created: '2026-05-05'
-modified: '2026-05-05'
+modified: '2026-05-16'
 specificationVersion: '0.19'
-apis: []
+apis:
+  - aid: cmc-materials:cmp-slurries
+    name: CMC Materials CMP Slurries
+    tags:
+      - Semiconductors
+      - CMP
+      - Slurries
+      - Specialty Chemicals
+    humanURL: https://www.entegris.com/
+    properties:
+      - url: https://www.entegris.com/
+        type: Documentation
+    description: >-
+      Chemical mechanical planarization (CMP) slurries for semiconductor wafer
+      polishing. CMC slurries cover tungsten, copper, dielectric, barrier metal,
+      and STI applications across leading-edge and legacy nodes, now offered
+      through the Entegris specialty chemicals product line.
+
+  - aid: cmc-materials:cmp-polishing-pads
+    name: CMC Materials CMP Polishing Pads
+    tags:
+      - Semiconductors
+      - CMP
+      - Polishing Pads
+    humanURL: https://www.entegris.com/
+    properties:
+      - url: https://www.entegris.com/
+        type: Documentation
+    description: >-
+      Polyurethane and composite polishing pads engineered for CMP processes
+      across semiconductor fab operations. Used in combination with CMC
+      slurries to achieve target surface flatness and defectivity at
+      production scale.
+
+  - aid: cmc-materials:wood-treatment
+    name: CMC Materials Wood Treatment Chemicals
+    tags:
+      - Specialty Chemicals
+      - Wood Treatment
+      - Preservatives
+    humanURL: https://www.entegris.com/
+    properties:
+      - url: https://www.entegris.com/
+        type: Documentation
+    description: >-
+      Wood treatment chemicals and preservation solutions sold to industrial
+      customers for utility poles, railroad ties, and construction lumber.
+      Part of the historical CMC Materials portfolio that was carved out
+      during the Entegris acquisition.
+
+  - aid: cmc-materials:pipeline-performance
+    name: CMC Materials Pipeline Performance Chemicals
+    tags:
+      - Specialty Chemicals
+      - Pipeline
+      - Drag Reduction
+    humanURL: https://www.entegris.com/
+    properties:
+      - url: https://www.entegris.com/
+        type: Documentation
+    description: >-
+      Drag reduction agents and pipeline performance chemicals used by oil
+      and gas pipeline operators to improve throughput. Part of the
+      historical CMC Materials portfolio, with the operating business
+      reorganized after the Entegris acquisition.
 common:
   - type: Website
     url: https://www.cmcmaterials.com/
+  - type: AcquiringCompany
+    url: https://www.entegris.com/
+  - type: Features
+    data:
+      - name: Chemical Mechanical Planarization
+        description: Advanced slurries and pads for semiconductor wafer polishing.
+      - name: Specialty Chemicals
+        description: Process chemicals for semiconductor manufacturing applications.
+      - name: Wood Treatment Solutions
+        description: Industrial wood preservation chemicals for utility and construction.
+      - name: Pipeline Performance
+        description: Drag reduction agents for oil and gas pipeline operators.
+      - name: Technical Sales Engagement
+        description: Direct engineering and applications support for semiconductor customers.
+  - type: UseCases
+    data:
+      - name: Logic Semiconductor CMP
+        description: CMP slurries and pads used in logic semiconductor fab production.
+      - name: Memory Semiconductor CMP
+        description: CMP consumables used in DRAM and NAND fabrication.
+      - name: Utility Pole Treatment
+        description: Long-life wood preservation for utility infrastructure.
+      - name: Pipeline Throughput Optimization
+        description: Drag reduction additives for crude oil and refined-product pipelines.
+  - type: Integrations
+    data:
+      - name: Entegris
+        description: Acquired CMC Materials in 2022 and integrated CMP and specialty chemicals into Entegris business units.
+      - name: Semiconductor Equipment OEMs
+        description: CMC consumables are qualified into Applied Materials, Ebara, and Lam Research CMP tools.
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
