@@ -85,6 +85,8 @@ apis:
       historical CMC Materials portfolio, with the operating business
       reorganized after the Entegris acquisition.
 common:
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/cmc-materials
   - type: Website
     url: https://www.cmcmaterials.com/
   - type: AcquiringCompany
