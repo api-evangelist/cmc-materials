@@ -95,6 +95,10 @@ apis:
     name: CMC Materials Pipeline Performance Chemicals
     tags:
       - Specialty Chemicals
+      - Pipelines
+      - Drag Reduction
+    tags_raw:
+      - Specialty Chemicals
       - Pipeline
       - Drag Reduction
     humanURL: https://www.entegris.com/
